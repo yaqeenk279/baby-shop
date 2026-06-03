@@ -1,0 +1,283 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Fashion Dresses</title>
+    <style>
+        /* Add your styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .col-md-3 {
+            flex: 0 0 30%;
+            max-width: 30%;
+            margin-bottom: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .col-md-3:hover {
+            transform: scale(1.05);
+        }
+
+        .dress-card {
+            position: relative;
+        }
+
+        .dress-card-head {
+            overflow: hidden;
+        }
+
+        .dress-card-img-top {
+            width: 100%;
+            height: auto;
+        }
+
+        .surprise-bubble {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #fff;
+            padding: 8px;
+            border-radius: 50%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .dress-card-heart {
+            color: #f00;
+        }
+
+        .dress-card-body {
+            padding: 10px;
+        }
+
+        .dress-card-title {
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+        .dress-card-para {
+            margin-bottom: 8px;
+            color: #555;
+        }
+
+        .dress-card-price {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .dress-card-crossed {
+            text-decoration: line-through;
+            color: #777;
+        }
+
+        .dress-card-off {
+            color: #4caf58;
+        }
+
+        .card-button {
+            padding: 0 5px;
+            text-align: center;
+        }
+
+        .card-button-inner {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 8px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .bag-button {
+            background-color: #4caf50;
+        }
+
+        .wish-button {
+            background-color: #f44336;
+        }
+
+        .card-button-inner:hover {
+            background-color: #45a049;
+            
+        }
+        .card-button-inner {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 8px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .bag-button {
+            background-color: #4caf50;
+        }
+
+        .wish-button {
+            background-color: #f44336;
+        }
+
+        .card-button-inner:hover {
+            background-color: #45a049;
+        }
+          /* Button styles */
+        .cart-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <!-- Dress 1 -->
+            <div class="col-md-3">
+                <div class="dress-card">
+                    <div class="dress-card-head">
+                        <img class="dress-card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQuS7s72yJVjhzdh4VEEUW6curAFWttj6YWbVHuGu5AlLuhqyU1aOHG5-pIoKyQFu91mQ&usqp=CAU" alt="">
+                        </div>
+                    <div class="dress-card-body">
+                        <h4 class="dress-card-title">Elegance echo</h4>
+                        <p class="dress-card-para">baby's printed clothing</p>
+                        <p class="dress-card-para"><span class="dress-card-price">OMR.83 &ensp;</span><span class="dress-card-crossed">OMR.108</span><span class="dress-card-off">&ensp; (60% OFF)</span></p>
+                        <div class="row">
+                            <div class="col-md-6 card-button"><a href="#"><div class="card-button-inner bag-button">Add to Bag</div></a></div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Dress 2 -->
+            <div class="col-md-3">
+                <div class="dress-card">
+                    <div class="dress-card-head">
+                        <img class="dress-card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-rI-PljBErav4Lm2ribQTXQJ1HWJi-jWqRvj-s9wsrBXd-wmTaAAFBojhuxVaTyMMZKA&usqp=CAU" alt="">
+                        </div>
+                    <div class="dress-card-body">
+                        <h4 class="dress-card-title">Beautiful Bloom</h4>
+                        <p class="dress-card-para">Floral print summer dress</p>
+                        <p class="dress-card-para"><span class="dress-card-price">$39.99 &ensp;</span><span class="dress-card-crossed">$59.99</span><span class="dress-card-off">&ensp; (33% OFF)</span></p>
+                        <div class="row">
+                            <div class="col-md-6 card-button"><a href="#"><div class="card-button-inner bag-button">Add to Bag</div></a></div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Dress 3 -->
+            <div class="col-md-3">
+                <div class="dress-card">
+                    <div class="dress-card-head">
+                        <img class="dress-card-img-top" src="https://image.uniqlo.com/GU/ST3/jp/imagesgoods/345198/item/jpgoods_14_345198.jpg" alt="">
+                        </div>
+                    <div class="dress-card-body">
+                        <h4 class="dress-card-title">Elegance echo</h4>
+                        <p class="dress-card-para">baby's printed clothing</p>
+                        <p class="dress-card-para"><span class="dress-card-price">OMR.73 &ensp;</span><span class="dress-card-crossed">OMR.108</span><span class="dress-card-off">&ensp; (60% OFF)</span></p>
+                        <div class="row">
+                            <div class="col-md-6 card-button"><a href="#"><div class="card-button-inner bag-button">Add to Bag</div></a></div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Dress 3 -->
+            <div class="col-md-3">
+                <div class="dress-card">
+                    <div class="dress-card-head">
+                        <img class="dress-card-img-top" src="https://th.bing.com/th/id/OIP.afHzvQh0aBdMyTjvq5YRogAAAA?rs=1&pid=ImgDetMain" alt="">
+                        </div>
+                    <div class="dress-card-body">
+                        <h4 class="dress-card-title">Attractive appearance</h4>
+                        <p class="dress-card-para">baby's printed clothing</p>
+                        <p class="dress-card-para"><span class="dress-card-price">OMR.4 &ensp;</span><span class="dress-card-crossed">OMR.17</span><span class="dress-card-off">&ensp; (60% OFF)</span></p>
+                        <div class="row">
+                            <div class="col-md-6 card-button"><a href="#"><div class="card-button-inner bag-button">Add to Bag</div></a></div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Dress 3 -->
+            <div class="col-md-3">
+                <div class="dress-card">
+                    <div class="dress-card-head">
+                        <img class="dress-card-img-top" src="https://ae01.alicdn.com/kf/HTB107homV9gSKJjSspbq6zeNXXaD/2017-China-Clothing-Girls-Summer-Clothes-Baby-Girls-Dot-Flower-Set-Toddler-Vest-Clothing-abbigliamento-bambine.jpg" alt="">
+                        </div>
+                    <div class="dress-card-body">
+                        <h4 class="dress-card-title">wonderful colors</h4>
+                        <p class="dress-card-para">baby's printed clothing</p>
+                        <p class="dress-card-para"><span class="dress-card-price">OMR.23 &ensp;</span><span class="dress-card-crossed">OMR.13</span><span class="dress-card-off">&ensp; (60% OFF)</span></p>
+                        <div class="row">
+                            <div class="col-md-6 card-button"><a href="#"><div class="card-button-inner bag-button">Add to Bag</div></a></div>
+                           </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Dress 3 -->
+            <div class="col-md-3">
+                <div class="dress-card">
+                    <div class="dress-card-head">
+                        <img class="dress-card-img-top" src="https://spoiltbratskids.co.uk/wp-content/uploads/2020/08/10-02214-059-800-6.jpg" alt="">
+                        </div>
+                    <div class="dress-card-body">
+                        <h4 class="dress-card-title">Featured</h4>
+                        <p class="dress-card-para">baby's printed clothing</p>
+                        <p class="dress-card-para"><span class="dress-card-price">OMR.53 &ensp;</span><span class="dress-card-crossed">OMR.10</span><span class="dress-card-off">&ensp; (60% OFF)</span></p>
+                        <div class="row">
+                            <div class="col-md-6 card-button"><a href="#"><div class="card-button-inner bag-button">Add to Bag</div></a></div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+             </div>
+                    </div>
+                </div>
+            </div>
+
+        <!-- Checkout Button -->
+        <div style="text-align: center; margin-top: 20px;">
+            <a href="Shopping basket.html" class="cart-button">
+                Prodect Checkout
+            </a>
+        </div>
+    </div>
+</body>
+    <!-- Return to Main Page Button -->
+    <div style="text-align: center; margin-top: 20px;">
+        <a href="Home.html" class="cart-button">
+            Return to Home Page
+        </a>
+    </div>
+
+
+</html>
